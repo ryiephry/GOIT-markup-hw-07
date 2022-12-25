@@ -1041,10 +1041,10 @@ header {
   color: currentColor;
 }
 
+/*
 .close-modal-button:hover {
   /* color: var(--white-color); */
 
-}
 
 .overflow-text {
   position: absolute;
@@ -1251,10 +1251,11 @@ header {
   display: flex;
 }
 
+/*
 .footer-right-section {}
 
 .subscribe-section {}
-
+ */
 .subscribe-header {
   font-weight: 700;
   font-size: 14px;
