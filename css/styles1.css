@@ -69,7 +69,7 @@ body {
 }
 
 /* HEADER */
-
+/*
 .header-section {
   border-bottom: 1px solid #ECECEC;
 }
@@ -150,12 +150,13 @@ body {
   color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
+*/
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
 }
 
+/*
 .header-svg {
   margin-right: 10px;
   fill: currentColor;
@@ -211,6 +212,38 @@ body {
 .header-navigation-link-current:focus::after {
   transform: scaleX(1);
 }
+*/
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--background-dark-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-img-index-hw04.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-titles {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  border-color: var(--primary-text-color);
+  margin-bottom: 30px;
+}
+
+.div-hero-main {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-button-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
 .hero-button {
   font-weight: 700;
@@ -232,13 +265,25 @@ body {
   z-index: 2;
 }
 
-.text-for-profilepics>ul li {
-  background-color: var(--white-color);
-  box-shadow: 0px 2px 1px 0px #00000033;
+.hero-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2f303a;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: var(--main-q-b);
+  transition-duration: 250ms;
+  border-radius: 4px;
+  z-index: -1;
+}
 
-  box-shadow: 0px 1px 1px 0px #00000024;
-
-  box-shadow: 0px 1px 3px 0px #0000001f;
+.hero-button:hover::before,
+.hero-button:focus {
+  transform: scaleX(1);
 }
 
 .hero-button:hover,
@@ -246,16 +291,34 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.hero-titles {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-color);
-  border-color: var(--primary-text-color);
-  margin-bottom: 30px;
+
+/* hidden backdrop */
+.backdrop {
+  position: fixed;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  visibility: visible;
+}
+
+.is-hidden {
+  opacity: 0;
+  position: fixed;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.text-for-profilepics>ul li {
+  background-color: var(--white-color);
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
 }
 
 .hero-titles .titles-for-paragraphs {
@@ -453,12 +516,6 @@ address {
 }
 
 /*button backgounrd and button*/
-
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: var(--background-dark-color);
-}
 
 .paragraphs-discription {
   padding-top: 94px;
@@ -734,14 +791,6 @@ address {
   background-color: #152735
 }
 
-
-.hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-img-index-hw04.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-
 .icon-list-profilepics {
   padding: 0px 10px;
   display: flex;
@@ -966,30 +1015,6 @@ address {
 
 .modal-body {
   padding: 10px 15px;
-
-
-}
-
-
-.backdrop {
-  position: fixed;
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 2;
-  visibility: visible;
-}
-
-.is-hidden {
-  opacity: 0;
-  position: fixed;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .modal-button {
@@ -1094,40 +1119,6 @@ address {
 /* contact info animation sectionn */
 
 /* hero button */
-
-.hero-button-div {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #2f303a;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: var(--main-q-b);
-  transition-duration: 250ms;
-  border-radius: 4px;
-  z-index: -1;
-
-}
-
-.hero-button:hover::before,
-.hero-button:focus {
-  transform: scaleX(1);
-}
-
-
-.div-hero-main {
-  display: flex;
-  justify-content: center;
-}
 
 /* buttonsssss*/
 
