@@ -12,6 +12,7 @@
 
 }
 $accent-color:#2196f3;
+
 .header-section {
     border-bottom: 1px solid #ECECEC;
 }
@@ -122,8 +123,11 @@ ul {
 .header-link:hover {
     color:black;
 }
+.header-link:hover,
+.header-link:focus {
+    color: var(black);
+}
 */
-
 .header-link::after {
     content: "";
     position: absolute;
@@ -241,5 +245,6 @@ ul {
 
 .hero-button:hover,
 .hero-button:focus {
-    color: rgb(255, 255, 255);
+    color: rgb(126, 70, 70);
 }
+

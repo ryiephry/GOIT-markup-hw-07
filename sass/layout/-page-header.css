@@ -122,6 +122,10 @@ ul {
 .header-link:hover {
     color:black;
 }
+.header-link:hover,
+.header-link:focus {
+    color: var(black);
+}
 */
 .header-link::after {
   content: "";
@@ -239,5 +243,5 @@ ul {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: rgb(255, 255, 255);
+  color: rgb(126, 70, 70);
 }/*# sourceMappingURL=-page-header.css.map */
