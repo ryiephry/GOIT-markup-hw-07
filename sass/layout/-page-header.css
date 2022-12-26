@@ -168,6 +168,7 @@ ul {
 }
 
 /* hero button section */
+/*
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -176,7 +177,7 @@ ul {
   background-size: cover;
   background-position: center;
 }
-
+*/
 .hero-titles {
   font-weight: 900;
   font-size: 44px;
@@ -244,4 +245,6 @@ ul {
 .hero-button:hover,
 .hero-button:focus {
   color: rgb(126, 70, 70);
-}/*# sourceMappingURL=-page-header.css.map */
+}
+
+/*# sourceMappingURL=-page-header.css.map */
