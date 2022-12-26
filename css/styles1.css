@@ -165,6 +165,11 @@ body {
   padding-right: 1px;
 }
 
+.header-svg:hover {
+  fill: currentColor;
+  color: #2196F3;
+}
+
 .navigation-contact-info-1 {
   position: relative;
 }
@@ -631,6 +636,8 @@ body {
 }
 
 .mail-tele-color {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -856,8 +863,8 @@ body {
 .profile-images-title-2 {
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 36px;
+  letter-spacing: 0.06em;
   margin-bottom: 10px;
   color: var(--primary-text-color);
 }
@@ -915,30 +922,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-
-/*next page / portfolio*/
-
-.images-titles {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-}
-
-/*portfolio page*/
-.footer-logo {
-  margin-bottom: 5px;
-}
-
-.footer-paddings-2 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 /* ICONS */
-
-
 .icon-space {
   margin-right: 10px;
   display: flex;
@@ -946,6 +930,7 @@ body {
 
 .icon-space:hover {
   background-color: var(--background-light-color);
+  background-color: #152735;
 }
 
 .futures-icon-svg {
@@ -959,28 +944,14 @@ body {
   border-width: 2px;
 }
 
-.icon-space:hover {
-  background-color: #152735
-}
+
 
 .futures-svg-futures {
   padding: 25px 102px;
   display: block;
 }
 
-.header-svg:hover {
-  fill: currentColor;
-  color: #2196F3;
-}
-
-.header-svg>svg:hover {
-  fill: currentColor;
-  color: #2196F3;
-}
-
-/*homework number 5 */
-
-
+/* modal  */
 .modal {
   position: fixed;
   top: 50%;
@@ -1027,7 +998,6 @@ body {
 
 .modal-button:hover,
 .modal-button:focus {
-  /* background-color: #2196F3; */
   color: #2196F3;
   transition-duration: 250ms;
   z-index: 3;
@@ -1059,26 +1029,6 @@ body {
   color: #000000;
   color: currentColor;
 }
-
-/*
-.close-modal-button:hover {
-  /* color: var(--white-color); */
-
-/* done
-.show-overflow:hover {
-  overflow-inline: 2;
-}
-*/
-
-/* contact info animation sectionn */
-
-/* hero button */
-
-/* buttonsssss*/
-
-
-
-/* number */
 
 .modal-head {
   padding-left: 20px;
@@ -1113,8 +1063,6 @@ body {
 }
 
 /* right footer section*/
-
-
 .Name-form {
   font-style: normal;
   font-weight: 400;
@@ -1181,12 +1129,10 @@ body {
   color: var(--accent-color);
 }
 
-
 .div-forms {
   margin-bottom: 10px;
   position: relative;
 }
-
 
 .comments-div {
   margin-bottom: 20px;
@@ -1236,7 +1182,6 @@ body {
   transition: color 250ms var(--main-q-b);
 }
 
-
 .button-modal-submit {
   display: flex;
   justify-content: center;
@@ -1267,9 +1212,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  /*
-  line-height: 24px;
-  */
   letter-spacing: 0.03em;
   color: #757575;
   transition: color 250ms var(--main-q-b);
@@ -1301,7 +1243,6 @@ body {
   left: 65px;
 }
 
-
 .checkbox:checked+.label-checkbox>.checkbox-svg:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -1324,7 +1265,6 @@ body {
   display: flex;
   cursor: pointer;
 }
-
 
 input[type=checkbox] {
   display: none;
