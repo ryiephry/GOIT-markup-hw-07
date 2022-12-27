@@ -301,6 +301,7 @@ ul {
 }
 */
 /*                                                            hidden backdrop */
+/*
 .backdrop {
   position: fixed;
   opacity: 1;
@@ -321,12 +322,14 @@ ul {
   visibility: hidden;
   pointer-events: none;
 }
-
+*/
 /*                                                    paragraph-description-section */
+/*
 .paragraphs-discription {
   padding-top: 94px;
 }
-
+*/
+/*
 .our-futures {
   position: absolute;
   width: 1px;
@@ -339,7 +342,8 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+*/
+/*
 .paragraphs-positioning {
   display: flex;
 }
@@ -358,7 +362,7 @@ ul {
   padding: 25px 102px;
   margin-bottom: 30px;
 }
-
+*/
 .paragraphs-titles {
   font-weight: 700;
   font-size: 14px;

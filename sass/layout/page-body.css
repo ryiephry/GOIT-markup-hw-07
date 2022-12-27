@@ -24,15 +24,32 @@
   display: flex;
   justify-content: center;
 }
-.div-hero .hero-container {
+
+.hero-container {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-/*
-.hero-button-div {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}*//*# sourceMappingURL=page-body.css.map */
+/* paragraphs description */
+.paragraphs-discription {
+  padding-top: 94px;
+}
+
+.paragraphs-positioning {
+  display: flex;
+}
+
+.paragraphs-item {
+  max-width: 270px;
+}
+.paragraphs-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.futures-svg {
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding: 25px 102px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=page-body.css.map */

@@ -23,17 +23,36 @@
 .div-hero {
     display: flex;
     justify-content: center;
-
-    .hero-container {
-            position: relative;
-            display: flex;
-            justify-content: center;
-        }
 }
 
-/*
-.hero-button-div {
+.hero-container {
     position: relative;
     display: flex;
     justify-content: center;
-}*/
+}
+
+
+/* paragraphs description */
+
+.paragraphs-discription {
+    padding-top: 94px;
+}
+
+.paragraphs-positioning {
+    display: flex;
+}
+
+.paragraphs-item {
+    max-width: 270px;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+
+.futures-svg {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 102px;
+    margin-bottom: 30px;
+}
