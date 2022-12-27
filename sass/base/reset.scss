@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin: 0px;
+    display: block;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: currentColor;
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}

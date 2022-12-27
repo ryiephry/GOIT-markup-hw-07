@@ -1,1 +1,45 @@
-/*# sourceMappingURL=buttons.css.map */
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.hero-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2f303a;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: var(--main-q-b);
+  transition-duration: 250ms;
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.hero-button:hover::before,
+.hero-button:focus {
+  transform: scaleX(1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=buttons.css.map */
