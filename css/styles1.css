@@ -363,6 +363,7 @@ ul {
   margin-bottom: 30px;
 }
 */
+/*
 .paragraphs-titles {
   font-weight: 700;
   font-size: 14px;
@@ -379,8 +380,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
+*/
 /*                                                        image pading  section  body */
+/*
 .images-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -426,9 +428,9 @@ ul {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
+*/
 /*                                                  text for profilepics section */
-
+/*
 .text-for-profilepics {
   font-size: 16px;
   line-height: 19px;
@@ -439,6 +441,7 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 
 .title-for-images2 {
   font-weight: 700;
@@ -462,7 +465,8 @@ ul {
 .profilepic-item:not(:last-child) {
   margin-right: 30px;
 }
-
+*/
+/*
 .profile-images-title {
   font-weight: 500;
   font-size: 16px;
@@ -481,12 +485,13 @@ ul {
   border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF
 }
-
+*/
 .paragraphs {
   font-weight: 400;
   margin-top: 10px;
 }
 
+/*
 .icon-list-profilepics {
   display: flex;
   justify-content: center;
@@ -508,7 +513,8 @@ ul {
   cursor: pointer;
   position: relative;
 }
-
+*/
+/*
 .icons-for-profilepics {
   display: flex;
   justify-content: center;
@@ -525,16 +531,18 @@ ul {
   color: #FFFFFF;
 }
 
+*/
 /*
 .socialmedia {nothin}
 */
-
-.regular-svg-6 {
+/* regular section */
+/*
+.regular-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.Regular-Customers {
+.regular-title {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
@@ -546,12 +554,12 @@ ul {
   margin-bottom: 50px;
 }
 
-.regular-custumers-groups {
+.regular-list {
   display: flex;
   color: #2196F3;
 }
 
-.regular-custumers-0-6 {
+.regular-item {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   width: 170px;
@@ -565,16 +573,17 @@ ul {
   transition: color 250ms var(--main-q-b), border-color 250ms var(--main-q-b);
 }
 
-.regular-custumers-0-6:not(:last-child) {
+.regular-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.regular-custumers-0-6:hover {
+.regular-item:hover {
   border: 1px solid #2196f3;
   color: #2196f3;
 }
-
-.r-g-6 {
+*/
+/*
+.icons-6 {
   Color: #AFB1B8;
   width: 170px;
   justify-content: center;
@@ -583,17 +592,19 @@ ul {
   transition: color 250ms var(--main-q-b), border-color 250ms var(--main-q-b);
 }
 
-.r-g-6:hover,
-.r-g-6:focus {
+.icons-6:hover,
+.icons-6:focus {
   color: #2196F3;
 }
+
 
 .fill-current-color {
   margin-top: auto;
   margin-bottom: auto;
 }
-
+*/
 /*                                                  footer section index-html */
+/*
 .footer-paddings-1 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -620,7 +631,8 @@ ul {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-
+*/
+/*
 .footer-seperation {
   display: flex;
   font-style: normal;
@@ -671,7 +683,8 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
+*/
+/*
 .footer-icons {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 30px;
@@ -698,13 +711,14 @@ ul {
   background-color: #2196F3;
   color: #FFFFFF;
 }
-
+*/
 /*                                                   right footer section 
  
 .footer-right-section {}
 
 .subscribe-section {}
  */
+
 .subscribe-header {
   font-weight: 700;
   font-size: 14px;

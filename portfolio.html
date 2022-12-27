@@ -13,11 +13,15 @@
         rel="stylesheet">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link href="./css/styles1.css" rel="stylesheet" type="text/css">
-    <link href="./sass/layout/-page-header.css" rel="stylesheet" type="text/css">-->
+    <link href="./sass/layout/-page-header.css" rel="stylesheet" type="text/css">
+    <link href="./sass/layout/-page-footer.css" rel="stylesheet" type="text/css">
     <link href="./sass/base/reset.css" rel="stylesheet" type="text/css">
     <link href="./sass/components/buttons.css" rel="stylesheet" type="text/css">
     <link href="./sass/layout/page-body.css" rel="stylesheet" type="text/css">
     <link href="./sass/components/modal.css" rel="stylesheet" type="text/css">
+    <link href="./sass/base/hidden.css" rel="stylesheet" type="text/css">
+    <link href="./sass/components/icons.css" rel="stylesheet" type="text/css">
+    <link href="./sass/layout/regular-page.css" rel="stylesheet" type="text/css">
 </head>
 
 
@@ -82,7 +86,7 @@
         </div>
     </header>
 
-    <main class="mainpagesyle">
+    <main class="main-section">
         <!-- buttons/filters for the body-->
         <section class="main-page">
             <div class="container">
@@ -294,15 +298,15 @@
             </div>
         </section>
     </main>
+    <footer class="footer-section">
 
-    <footer class="footer-paddings-1">
-        <div class="container flex-foot">
-            <section>
-                <div class="footer-logo-1">
+        <div class="container footer-container">
+            <div>
+                <div class="footer-webstudio">
                     <a href="./index.html" class="logo">WebStudio</a>
                 </div>
-                <address>
-                    <ul class="footer-ul">
+                <address class="footer-seperation">
+                    <ul class="footer-list">
                         <li class="footer-paragraph-space-1">
                             <a href="https://goo.gl/maps/Pc82vpNhHuvUtrE47" target="_blank" class="white-address">695
                                 Park
@@ -318,10 +322,12 @@
                         </li>
                     </ul>
                 </address>
-            </section>
+            </div>
             <div class="find-us-section">
+
                 <h2 class="Find-us-on">Find us on</h2>
-                <ul class="footer-ul-2">
+
+                <ul class="find-us-list">
                     <li class="footer-icons">
 
                         <a href="https://www.facebook.com/" class="footer-4-social">
@@ -372,17 +378,16 @@
                     </li>
                 </ul>
             </div>
-
             <!--SUBSCRIBE SECTION / MINIFORM -->
 
-            <div class="footer-right-section">
+            <div class="footer-right">
 
                 <div class="subscribe-section">
 
                     <h3 class="subscribe-header ">Subscribe to the newsletter</h3>
 
                     <form class="form-footer">
-                        <label>
+                        <label class="form-footer-input">
                             <input type="email" class="input-design" placeholder="E-mail" />
                         </label>
 
@@ -404,8 +409,9 @@
 
             </div>
 
-
         </div>
+
+
     </footer>
 </body>
 

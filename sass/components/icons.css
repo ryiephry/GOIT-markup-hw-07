@@ -1,1 +1,55 @@
-/*# sourceMappingURL=icons.css.map */
+.icons-for-profilepics {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 50%;
+  position: relative;
+  transition-duration: 250ms;
+  transition: color 250ms var(--main-q-b), background-color 250ms var(--main-q-b);
+}
+.icons-for-profilepics:hover, .icons-for-profilepics:focus {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+.icons-6 {
+  Color: #AFB1B8;
+  width: 170px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  transition: color 250ms var(--main-q-b), border-color 250ms var(--main-q-b);
+}
+.icons-6:hover, .icons-6:focus {
+  color: #2196F3;
+}
+
+.fill-current-color {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-icons {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.footer-4-social {
+  padding: 12px;
+  display: flex;
+  color: #FFFFFF;
+  position: relative;
+  border-radius: 50%;
+  transition: color 250ms var(--main-q-b), background-color 250ms var(--main-q-b);
+}
+
+.footer-4-social:hover,
+.footer-4-social:focus {
+  border-radius: 23px;
+  background-color: #2196F3;
+  color: #FFFFFF;
+}/*# sourceMappingURL=icons.css.map */
