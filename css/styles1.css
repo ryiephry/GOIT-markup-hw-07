@@ -84,11 +84,11 @@ ul {
   align-items: center;
 }
 
-.header-navigation-control {
+.header-navigation {
   display: flex;
 }
 
-.navigation-list-1 {
+.navigation {
   display: flex;
   align-items: center;
 }
