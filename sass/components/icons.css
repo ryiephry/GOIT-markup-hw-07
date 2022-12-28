@@ -1,3 +1,20 @@
+.contacts-svg {
+  margin-right: 10px;
+  fill: currentColor;
+  padding-right: 1px;
+}
+.contacts-svg:hover {
+  fill: currentColor;
+  color: #2196F3;
+}
+
+.futures-svg {
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding: 25px 102px;
+  margin-bottom: 30px;
+}
+
 .icons-for-profilepics {
   display: flex;
   justify-content: center;

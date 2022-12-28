@@ -27,8 +27,8 @@ $accent-color:#2196f3;
 }
 
  .navigation {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
  }
 
 
@@ -48,11 +48,11 @@ $accent-color:#2196f3;
     padding-bottom: 30px;
     position: relative;
     transition: color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
 
-.navigation-link:hover,
-.navigation-link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .navigation-link-current {
@@ -93,11 +93,12 @@ $accent-color:#2196f3;
 
 .contact-info {
     position: relative;
+
+    &:not(:last-child) {
+            margin-right: 50px;
+        }
 }
 
-.contact-info:not(:last-child) {
-    margin-right: 50px;
-}
 
 .header-navigation-link-2 {
     display: flex;
@@ -114,24 +115,12 @@ $accent-color:#2196f3;
     align-items: center;
     color: var(--secondary-text-color);
     transition: color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
 
-.contacts-link:hover,
-.contacts-link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
-
-.contacts-svg {
-    margin-right: 10px;
-    fill: currentColor;
-    padding-right: 1px;
-}
-
-.contacts-svg:hover {
-    fill: currentColor;
-    color: #2196F3;
-}
-
 
 .contacts-link::after {
     content: "";
@@ -147,8 +136,9 @@ $accent-color:#2196f3;
     transition: var(--main-q-b);
     transition-duration: 250ms;
     border-radius: 2px;
-}
 
+    
+}
 .contacts-link:hover::after {
     transform: scaleX(1);
 }
