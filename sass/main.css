@@ -138,7 +138,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background-dark-color);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/background-img-index-hw04.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../images/background-img-index-hw04.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -180,13 +180,6 @@
 }
 .paragraphs-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.futures-svg {
-  background: #F5F4FA;
-  border-radius: 4px;
-  padding: 25px 102px;
-  margin-bottom: 30px;
 }
 
 .paragraphs-titles {
