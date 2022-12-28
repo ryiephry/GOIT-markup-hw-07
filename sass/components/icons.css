@@ -52,4 +52,10 @@
   border-radius: 23px;
   background-color: #2196F3;
   color: #FFFFFF;
+}
+
+/* footer button svg */
+.subscibe-svg {
+  color: var(--white-color);
+  margin-left: 20px;
 }/*# sourceMappingURL=icons.css.map */

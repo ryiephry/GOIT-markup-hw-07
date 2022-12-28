@@ -604,8 +604,9 @@ ul {
 }
 */
 /*                                                  footer section index-html */
-/*
-.footer-paddings-1 {
+
+
+.footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-dark-color);
@@ -615,7 +616,7 @@ ul {
   display: block;
 }
 
-.flex-foot {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -631,14 +632,13 @@ ul {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-*/
-/*
+
 .footer-seperation {
   display: flex;
   font-style: normal;
 }
 
-.footer-ul {
+.footer-list {
   margin-right: 70px;
 }
 
@@ -679,11 +679,11 @@ ul {
   margin-bottom: 20px;
 }
 
-.footer-ul-2 {
+.find-us-list {
   display: flex;
   justify-content: space-between;
 }
-*/
+
 /*
 .footer-icons {
   background-color: rgba(255, 255, 255, 0.1);
@@ -711,13 +711,13 @@ ul {
   background-color: #2196F3;
   color: #FFFFFF;
 }
+
 */
-/*                                                   right footer section 
- 
+
 .footer-right-section {}
 
 .subscribe-section {}
- */
+
 
 .subscribe-header {
   font-weight: 700;
@@ -733,8 +733,10 @@ ul {
   display: flex;
 }
 
-/*.form-footer-input {}*/
+.form-footer-input {}
 
+
+/*
 .input-design {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -755,7 +757,9 @@ ul {
 .input-design:focus {
   border: 1px solid var(--accent-color);
 }
+*/
 
+/*
 .footer-button {
   display: flex;
   justify-content: center;
@@ -776,12 +780,13 @@ ul {
   font-size: 16px;
   line-height: 30px;
 }
-
+*/
+/*
 .subscibe-svg {
   color: var(--white-color);
   margin-left: 20px;
 }
-
+*/
 /* END OF INDEX PAGE */
 
 /* copy paste header */
@@ -938,7 +943,7 @@ ul {
 }
 
 /* modal  */
-/*
+
 .modal {
   position: fixed;
   top: 50%;
@@ -1020,7 +1025,7 @@ ul {
 }
 
 /* right footer section*/
-/*
+
 .Name-form {
   color: #757575;
 }
