@@ -97,11 +97,15 @@
 
 .images-item {
     position: relative;
-}
 
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+/*
 .images-item:not(:last-child) {
     margin-right: 30px;
-}
+}*/
 
 .overlay-box {
     bottom: 0px;
@@ -174,6 +178,11 @@ border-radius: 0px 0px 4px 4px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
+
+.paragraphs {
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 .icon-list-profilepics {

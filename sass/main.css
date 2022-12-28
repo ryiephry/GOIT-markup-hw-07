@@ -1,25 +1,3 @@
-/* input */
-.input-design {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  color: rgba(255, 255, 255, 0.6);
-  background-color: var(--background-dark-color);
-  padding: 10px;
-  width: 350px;
-  height: 50px;
-  font-family: Roboto;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  outline: none;
-  transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
-}
-
-.input-design:hover,
-.input-design:focus {
-  border: 1px solid var(--accent-color);
-}
-
 :root {
   --accent-color: #2196f3;
   --primary-text-color: #212121;
@@ -267,11 +245,14 @@
 .images-item {
   position: relative;
 }
-
 .images-item:not(:last-child) {
   margin-right: 30px;
 }
 
+/*
+.images-item:not(:last-child) {
+    margin-right: 30px;
+}*/
 .overlay-box {
   bottom: 0px;
   position: absolute;
@@ -342,6 +323,11 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.paragraphs {
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 .icon-list-profilepics {
@@ -416,7 +402,7 @@
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(blue);
+  background-color: var(--background-dark-color);
 }
 
 /*.container-footer {}*/
@@ -495,4 +481,26 @@
 
 .form-footer {
   display: flex;
+}
+
+/* input */
+.input-design {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--background-dark-color);
+  padding: 10px;
+  width: 350px;
+  height: 50px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  outline: none;
+  transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
+}
+
+.input-design:hover,
+.input-design:focus {
+  border: 1px solid var(--accent-color);
 }/*# sourceMappingURL=main.css.map */

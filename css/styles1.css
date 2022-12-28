@@ -485,7 +485,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF
 }
-*/
+
 .paragraphs {
   font-weight: 400;
   margin-top: 10px;
@@ -605,13 +605,14 @@ ul {
 */
 /*                                                  footer section index-html */
 
-
+/*
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-dark-color);
 }
-
+*/
+/*
 .footer-pt2 {
   display: block;
 }
@@ -713,7 +714,7 @@ ul {
 }
 
 */
-
+/*
 .footer-right-section {}
 
 .subscribe-section {}
@@ -735,7 +736,7 @@ ul {
 
 .form-footer-input {}
 
-
+*/
 /*
 .input-design {
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -791,6 +792,8 @@ ul {
 
 /* copy paste header */
 /*.mainpagesyle {94pxpadding}*/
+
+
 
 .main-page {
   padding-top: 94px;
