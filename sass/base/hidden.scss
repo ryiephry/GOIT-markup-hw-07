@@ -32,3 +32,26 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.overflow-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translatey(100%);
+    transition: transform 250ms;
+    transition-delay: var(--main-q-b);
+    z-index: 2;
+    padding: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.template:hover .overflow-text {
+    transform: translatex(0);
+}
