@@ -17,6 +17,12 @@
     display: flex;
     justify-content: center;
     z-index: 2;
+
+
+    &:hover,
+    &:focus {
+            color: rgb(255, 255, 255);
+        }
 }
 
 .hero-button::before {
@@ -40,10 +46,6 @@
     transform: scaleX(1);
 }
 
-.hero-button:hover,
-.hero-button:focus {
-    color: rgb(255, 255, 255);
-}
 
 /* body for both pages */
 
@@ -68,13 +70,6 @@
     }
 }
 
-/*
-.left-to-right-button:hover {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-}
-*/
 /* footer button*/
 
 .footer-button {
