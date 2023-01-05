@@ -8,7 +8,7 @@
         color: #2196F3;
     }
 }
-
+/*body*/
 .futures-svg {
     background: #F5F4FA;
     border-radius: 4px;
@@ -29,16 +29,6 @@
     &:focus {
         background-color: #2196F3;
         color: #FFFFFF;
-    }
-}
-
-.icon-space {
-    margin-right: 10px;
-    display: flex;
-
-    &:hover {
-        background-color: var(--background-light-color);
-        background-color: #152735;
     }
 }
 
@@ -72,12 +62,11 @@
     }
 }
 
-
 .fill-current-color {
     margin-top: auto;
     margin-bottom: auto;
 }
-
+  /* footer */
 .footer-icons {
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;

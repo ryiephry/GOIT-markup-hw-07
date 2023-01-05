@@ -46,12 +46,13 @@
     margin-top: 2px;
     transition: color 250ms var(--main-q-b);
     background-color: #ffffff;
+
+    &:hover,
+    &:focus {
+            color: #2196F3;
+        }
 }
 
-.modal-button:hover,
-.modal-button:focus {
-    color: #2196F3;
-}
 
 .close-modal-button {
     width: 20px;
@@ -115,12 +116,13 @@
     color: #757575;
     border: 1px solid rgba(33, 33, 33, 0.2);
     transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
+
+    &:focus,
+    &:hover {
+            border: 1px solid var(--accent-color);
+        }
 }
 
-.input-form-main:focus,
-.input-form-main:hover {
-    border: 1px solid var(--accent-color);
-}
 
 .input-form-main:focus+.svg-forms,
 .input-form-main:hover+.svg-forms {
@@ -151,12 +153,13 @@
     color: rgba(117, 117, 117, 0.5);
     border: 1px solid rgba(33, 33, 33, 0.2);
     transition: border 250ms var(--main-q-b);
+
+    &:hover,
+    &:focus {
+            border: 1px solid var(--accent-color);
+        }
 }
 
-.comments-textarea:hover,
-.comments-textarea:focus {
-    border: 1px solid var(--accent-color);
-}
 
 /*.div-for--checkbox {}*/
 
@@ -172,7 +175,6 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
     left: 65px;
-
     transition: color 2500ms var(--main-q-b), background-color 2500ms var(--main-q-b), border 250ms var(--main-q-b);
 }
 
@@ -222,11 +224,13 @@ input[type=checkbox] {
     letter-spacing: 0.03em;
     color: #757575;
     transition: color 250ms var(--main-q-b);
+
+
+    &:hover {
+            color: var(--accent-color);
+        }
 }
 
-.terms-conditions:hover {
-    color: var(--accent-color);
-}
 
 
 .button-modal-submit {

@@ -194,11 +194,6 @@ ul {
   margin-right: 50px;
 }
 
-.header-navigation-link-2 {
-  display: flex;
-  align-items: center;
-}
-
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
@@ -733,9 +728,7 @@ ul {
   transition: color 250ms var(--main-q-b);
   background-color: #ffffff;
 }
-
-.modal-button:hover,
-.modal-button:focus {
+.modal-button:hover, .modal-button:focus {
   color: #2196F3;
 }
 
@@ -802,9 +795,7 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
 }
-
-.input-form-main:focus,
-.input-form-main:hover {
+.input-form-main:focus, .input-form-main:hover {
   border: 1px solid var(--accent-color);
 }
 
@@ -838,9 +829,7 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: border 250ms var(--main-q-b);
 }
-
-.comments-textarea:hover,
-.comments-textarea:focus {
+.comments-textarea:hover, .comments-textarea:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -904,7 +893,6 @@ input[type=checkbox] {
   color: #757575;
   transition: color 250ms var(--main-q-b);
 }
-
 .terms-conditions:hover {
   color: var(--accent-color);
 }
@@ -942,6 +930,7 @@ input[type=checkbox] {
   color: #2196F3;
 }
 
+/*body*/
 .futures-svg {
   background: #F5F4FA;
   border-radius: 4px;
@@ -961,15 +950,6 @@ input[type=checkbox] {
 .icons-for-profilepics:hover, .icons-for-profilepics:focus {
   background-color: #2196F3;
   color: #FFFFFF;
-}
-
-.icon-space {
-  margin-right: 10px;
-  display: flex;
-}
-.icon-space:hover {
-  background-color: var(--background-light-color);
-  background-color: #152735;
 }
 
 .futures-icon-svg {
@@ -1004,6 +984,7 @@ input[type=checkbox] {
   margin-bottom: auto;
 }
 
+/* footer */
 .footer-icons {
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
