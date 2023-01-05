@@ -1,3 +1,16 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --background-dark-color: #2f303a;
+  --background-light-color: #f5f4fa;
+  --currentColor: rgb(196, 196, 34);
+  --main-q-b: cubic-bezier(0.4, 0, 0.2, 1);
+  --black-: black;
+  --checkbox-color: var(--white-color);
+}
+
 body {
   font-family: "Roboto";
   font-size: 14px;
@@ -34,6 +47,14 @@ img {
 
 ul {
   list-style: none;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.1923076923;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 /* things that are hidden */
@@ -446,14 +467,13 @@ ul {
   position: relative;
   transition: color 250ms var(--main-q-b), border-color 250ms var(--main-q-b);
 }
-
-.regular-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .regular-item:hover {
   border: 1px solid #2196f3;
   color: #2196f3;
+}
+
+.regular-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* footer */
@@ -636,9 +656,7 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: color 250ms var(--main-q-b), border 250ms var(--main-q-b);
 }
-
-.input-form-main:focus,
-.input-form-main:hover {
+.input-form-main:focus, .input-form-main:hover {
   border: 1px solid var(--accent-color);
 }
 
@@ -1012,27 +1030,6 @@ input[type=checkbox] {
 .subscibe-svg {
   color: var(--white-color);
   margin-left: 20px;
-}
-
-:root {
-  --accent-color: #2196f3;
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --white-color: #ffffff;
-  --background-dark-color: #2f303a;
-  --background-light-color: #f5f4fa;
-  --currentColor: rgb(196, 196, 34);
-  --main-q-b: cubic-bezier(0.4, 0, 0.2, 1);
-  --black-: black;
-  --checkbox-color: var(--white-color);
-}
-
-.logo {
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.1923076923;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
 }
 
 /* button section */
