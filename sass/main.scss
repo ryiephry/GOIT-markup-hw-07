@@ -1,6 +1,13 @@
+
+@use 'base/reset';
 @use 'layout/../layout/page-header';
-@use 'layout/../layout/page-body.scss';
+@use 'layout/../layout/page-body';
 @use 'layout/../layout/regular-page.scss';
+@use 'layout/pageFotter';
 @use 'layout/../layout/portfolio-body';
-@use 'layout/../layout/pageFotter';
 @use 'layout/../components/input';
+@use './components/newicons';
+@use 'layout/../fonts/fonts';
+@use 'components/buttons'; 
+
+

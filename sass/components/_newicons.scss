@@ -1,4 +1,3 @@
-
 .contacts-svg {
     margin-right: 10px;
     fill: currentColor;
@@ -28,9 +27,9 @@
 
     &:hover,
     &:focus {
-            background-color: #2196F3;
-            color: #FFFFFF;
-        }
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
 }
 
 .icon-space {
@@ -38,9 +37,9 @@
     display: flex;
 
     &:hover {
-            background-color: var(--background-light-color);
-            background-color: #152735;
-        }
+        background-color: var(--background-light-color);
+        background-color: #152735;
+    }
 }
 
 .futures-icon-svg {
@@ -49,17 +48,15 @@
     margin-bottom: 30px;
 
     &:hover {
-            border: #212121;
-            border-width: 2px;
-        }
+        border: #212121;
+        border-width: 2px;
+    }
 }
-
 
 .futures-svg-futures {
     padding: 25px 102px;
     display: block;
 }
-
 
 .icons-6 {
     Color: #AFB1B8;
@@ -71,8 +68,8 @@
 
     &:hover,
     &:focus {
-            color: #2196F3;
-        }
+        color: #2196F3;
+    }
 }
 
 
@@ -100,14 +97,12 @@
 
     &:hover,
     &:focus {
-            border-radius: 23px;
-            background-color: #2196F3;
-            color: #FFFFFF;
-        }
+        border-radius: 23px;
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
 }
 
-
-                      /* footer button svg */
 .subscibe-svg {
     color: var(--white-color);
     margin-left: 20px;
